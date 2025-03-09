@@ -1,0 +1,64 @@
+Here is the updated code:
+
+*HTML (index.html)*
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Webpage</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 id="heading">Welcome to my webpage!</h1>
+	<p id="paragraph">This is a simple webpage created using HTML, CSS, and JavaScript.</p>
+	
+	<button id="btn">Click me!</button>
+	
+	<script src="script.js"></script>
+</body>
+</html>
+```
+
+*CSS (style.css)*
+```
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+#heading {
+	color: #00698f;
+}
+
+#paragraph {
+	color: #666;
+}
+
+#btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#btn:hover {
+	background-color: #3e8e41;
+}
+```
+
+*JavaScript (script.js)*
+```
+document.getElementById("btn").addEventListener("click", function() {
+	alert("Button clicked!");
+});
+```
+
+This code creates a simple webpage with:
+
+- A heading and paragraph of text
+- A button that triggers an alert message when clicked
+- Visual styling defined by the CSS rules
+
+You can save these files as `index.html`, `style.css`, and `script.js` and open `index.html` in a web browser to view the webpage.
